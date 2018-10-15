@@ -11,7 +11,7 @@ class App extends Component {
   componentDidMount() {
     this._getMovies();
   }
-
+//Figure
   _renderMovies = () => {
     const movies = this.state.movies.map(movie => {
       return (
